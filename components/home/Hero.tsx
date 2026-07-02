@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { HERO_IMG } from '@/data/content';
 
@@ -26,18 +27,18 @@ const Hero = () => (
           that enhance brand visibility, stakeholder engagement, and partnership opportunities.
         </p>
         <div className="flex flex-wrap gap-4">
-          <a
-            href="#services"
+          <Link
+            href="/services"
             className="inline-flex items-center gap-2 rounded bg-[#8B2D6E] hover:bg-[#5E1E49] text-white text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
           >
             Our Services <ChevronRight className="w-4 h-4" />
-          </a>
-          <a
-            href="#work"
+          </Link>
+          <Link
+            href="/portfolio"
             className="inline-flex items-center gap-2 rounded border border-[#9aae3a] text-white hover:bg-[#9aae3a]/10 text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
           >
             View Our Work
-          </a>
+          </Link>
         </div>
       </div>
     </div>
