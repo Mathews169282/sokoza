@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight, MessageCircle } from 'lucide-react';
+import { Menu, X, ChevronRight, MessageCircle, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import Logo from '@/components/shared/Logo';
 import { NAV_LINKS } from '@/data/content';
 import { useQuote } from './QuoteContext';
@@ -46,6 +46,25 @@ const Navbar = () => {
           >
             Get a Quote <ChevronRight className="w-4 h-4" />
           </button>
+          <div className="flex items-center gap-2">
+            {[
+              { icon: Facebook, href: 'https://www.facebook.com', label: 'Facebook' },
+              { icon: Instagram, href: 'https://www.instagram.com', label: 'Instagram' },
+              { icon: Linkedin, href: 'https://www.linkedin.com', label: 'LinkedIn' },
+              { icon: Twitter, href: 'https://www.twitter.com', label: 'Twitter' },
+            ].map(({ icon: Icon, href, label }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-11 h-11 rounded-full bg-white border border-gray-200 hover:border-[#8B2D6E] hover:text-[#8B2D6E] flex items-center justify-center text-gray-600 transition-colors"
+                aria-label={label}
+              >
+                <Icon className="w-5 h-5" />
+              </a>
+            ))}
+          </div>
           <a
             href="https://wa.me/254723672244"
             target="_blank"

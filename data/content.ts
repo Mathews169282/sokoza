@@ -31,6 +31,24 @@ export const CLIENTS = [
   'Safaricom', 'KCB Bank', 'Kenya Red Cross', 'Equity', 'GIZ', 'Unilever', 'Novartis', 'Coca-Cola',
 ];
 
+export const PARTNERS = [
+  '/Partners/AC.jpg',
+  '/Partners/Acrcn.jpg',
+  '/Partners/BAYER.jpg',
+  '/Partners/cifor.jpg',
+  '/Partners/CLDP.jpg',
+  '/Partners/EACCIA.jpg',
+  '/Partners/EU.jpg',
+  '/Partners/Goodtimes.jpg',
+  '/Partners/Kohler.jpg',
+  '/Partners/metropol.jpg',
+  '/Partners/Mo.jpg',
+  '/Partners/Nairobi.jpg',
+  '/Partners/Nation.jpg',
+  '/Partners/phd.jpg',
+  '/Partners/sankalp.jpg',
+];
+
 export const SERVICES = [
   {
     icon: 'Lightbulb',
