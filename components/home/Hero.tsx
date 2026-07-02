@@ -18,13 +18,12 @@ const Hero = () => (
         <p className="text-[#9aae3a] font-semibold tracking-[0.3em] text-sm uppercase mb-5">
           Leadership in Motion
         </p>
-        <h1 className="font-serif text-white text-5xl md:text-7xl font-bold leading-[1.05] mb-6">
-          Connecting Your<br />
-          <span className="text-[#9aae3a]">Audience</span>
+        <h1 className="font-serif text-white text-4xl md:text-6xl font-bold leading-[1.1] mb-6">
+          Your Partner in Corporate Event Planning, Sponsorship and Audience Engagement
         </h1>
-        <p className="text-gray-300 text-lg leading-relaxed max-w-lg mb-9">
-          We design and execute exceptional events that connect people to brands,
-          inspire audiences, and deliver measurable results across Africa.
+        <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-9">
+          We support organizations in planning and delivering high-impact professional events
+          that enhance brand visibility, stakeholder engagement, and partnership opportunities.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
