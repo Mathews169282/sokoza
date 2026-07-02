@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --color-purple: #8B2D6E;
+  --color-purple-dark: #5E1E49;
+  --color-olive: #7A8B2E;
+  --color-olive-light: #9aae3a;
+  --color-charcoal: #1E2024;
+  --color-cream: #FBFAF8;
+  --color-white: #ffffff;
+  --color-gray-50: #f9fafb;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --color-purple: var(--color-purple);
+  --color-purple-dark: var(--color-purple-dark);
+  --color-olive: var(--color-olive);
+  --color-olive-light: var(--color-olive-light);
+  --color-charcoal: var(--color-charcoal);
+  --color-cream: var(--color-cream);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s ease-out both;
+}

@@ -1,0 +1,8 @@
+.next
+out
+build
+node_modules
+*.log
+.git
+package-lock.json
+public
