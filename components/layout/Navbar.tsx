@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight, MessageCircle, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Menu, X, ChevronRight, MessageCircle, Facebook, Instagram, Linkedin } from 'lucide-react';
 import Logo from '@/components/shared/Logo';
 import { NAV_LINKS } from '@/data/content';
 import { useQuote } from './QuoteContext';
@@ -47,12 +47,11 @@ const Navbar = () => {
             Get a Quote <ChevronRight className="w-4 h-4" />
           </button>
           <div className="flex items-center gap-2">
-            {[
-              { icon: Facebook, href: 'https://www.facebook.com', label: 'Facebook' },
-              { icon: Instagram, href: 'https://www.instagram.com', label: 'Instagram' },
-              { icon: Linkedin, href: 'https://www.linkedin.com', label: 'LinkedIn' },
-              { icon: Twitter, href: 'https://www.twitter.com', label: 'Twitter' },
-            ].map(({ icon: Icon, href, label }) => (
+              {[
+                { icon: Facebook, href: 'https://www.facebook.com', label: 'Facebook' },
+                { icon: Instagram, href: 'https://www.instagram.com', label: 'Instagram' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/sokoza-events-877356333?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
+              ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
                 href={href}
