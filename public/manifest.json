@@ -1,0 +1,16 @@
+{
+  "name": "Sokoza Events",
+  "short_name": "Sokoza",
+  "description": "Leadership in Motion. We design and execute exceptional events that connect audiences and brands across Africa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1E2024",
+  "theme_color": "#8B2D6E",
+  "icons": [
+    {
+      "src": "/og.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ]
+}
