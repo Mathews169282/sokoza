@@ -26,9 +26,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
         <Logo />
         <div className="hidden lg:flex flex-col ml-3 text-xs">
-          <a href="tel:+254700000000" className="flex items-center gap-1.5 text-gray-600 hover:text-[#8B2D6E] transition-colors">
+          <a href="tel:+254723672244" className="flex items-center gap-1.5 text-gray-600 hover:text-[#8B2D6E] transition-colors">
             <Phone className="w-3.5 h-3.5" />
-            +254 700 000 000
+            +254 723 67 22 44
           </a>
           <a href="mailto:rose@sokoza.co.ke" className="flex items-center gap-1.5 text-gray-600 hover:text-[#8B2D6E] transition-colors mt-1">
             <Mail className="w-3.5 h-3.5" />
