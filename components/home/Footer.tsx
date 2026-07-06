@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Facebook, Instagram, Linkedin, Twitter, Send } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Send } from 'lucide-react';
 import Logo from '@/components/shared/Logo';
 import { NAV_LINKS, SERVICES } from '@/data/content';
 
@@ -36,13 +36,13 @@ const Footer = () => {
             Leadership in Motion. We design and execute exceptional events that connect
             audiences and brands across Africa.
           </p>
-          <div className="flex gap-3 mt-6">
-            {[Facebook, Instagram, Linkedin, Twitter].map((Icon, i) => (
-              <a key={i} href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#8B2D6E] flex items-center justify-center transition-colors">
-                <Icon className="w-4 h-4 text-white" />
-              </a>
-            ))}
-          </div>
+<div className="flex gap-3 mt-6">
+             {[Facebook, Instagram, Linkedin].map((Icon, i) => (
+               <a key={i} href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#8B2D6E] flex items-center justify-center transition-colors">
+                 <Icon className="w-4 h-4 text-white" />
+               </a>
+             ))}
+           </div>
         </div>
 
         <div>
