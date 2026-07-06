@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight, MessageCircle, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Menu, X, ChevronRight, MessageCircle, Facebook, Instagram, Linkedin, Phone, Mail } from 'lucide-react';
 import Logo from '@/components/shared/Logo';
 import { NAV_LINKS } from '@/data/content';
 import { useQuote } from './QuoteContext';
@@ -25,6 +25,16 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
         <Logo />
+        <div className="hidden lg:flex flex-col ml-3 text-xs">
+          <a href="tel:+254700000000" className="flex items-center gap-1.5 text-gray-600 hover:text-[#8B2D6E] transition-colors">
+            <Phone className="w-3.5 h-3.5" />
+            +254 700 000 000
+          </a>
+          <a href="mailto:rose@sokoza.co.ke" className="flex items-center gap-1.5 text-gray-600 hover:text-[#8B2D6E] transition-colors mt-1">
+            <Mail className="w-3.5 h-3.5" />
+            rose@sokoza.co.ke
+          </a>
+        </div>
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((l) => (
