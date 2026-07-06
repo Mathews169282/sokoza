@@ -23,14 +23,15 @@ export default function ContactPage() {
       await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: form.email,
-          name: form.name,
-          phone: form.phone || undefined,
-          sms_opt_in: smsOptIn,
-          source: 'contact-form',
-          tags: ['contact', 'quote-request'],
-        }),
+body: JSON.stringify({
+           email: form.email,
+           name: form.name,
+           phone: form.phone || undefined,
+           sms_opt_in: smsOptIn,
+           source: 'contact-form',
+           tags: ['contact', 'quote-request'],
+           assign_to: 'rose@sokoza.co.ke',
+         }),
       });
       setStatus('done');
     } catch {

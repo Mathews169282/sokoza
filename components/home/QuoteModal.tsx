@@ -23,14 +23,15 @@ const QuoteModal = ({ open, onClose }: { open: boolean; onClose: () => void }) =
       await fetch('/api/quote', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: form.email,
-          name: form.name,
-          phone: form.phone || undefined,
-          sms_opt_in: smsOptIn,
-          source: 'quote',
-          tags: ['quote-request', form.eventType.toLowerCase()],
-        }),
+body: JSON.stringify({
+           email: form.email,
+           name: form.name,
+           phone: form.phone || undefined,
+           sms_opt_in: smsOptIn,
+           source: 'quote',
+           tags: ['quote-request', form.eventType.toLowerCase()],
+           assign_to: 'rose@sokoza.co.ke',
+         }),
       });
       setStatus('done');
     } catch {

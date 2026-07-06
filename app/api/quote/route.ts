@@ -11,13 +11,14 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Invalid input' }, { status: 400 });
     }
 
-    const crmPayload = {
+const crmPayload = {
       email,
       name,
       phone: phone || undefined,
       sms_opt_in: body.sms_opt_in ?? true,
       source: 'quote',
       tags: ['quote-request', (eventType || 'other').toLowerCase()],
+      assign_to: 'rose@sokoza.co.ke',
     };
 
     const crmRes = await fetch('https://famous.ai/api/crm/6a43d3d8d03ffd9417a014d4/subscribe', {
