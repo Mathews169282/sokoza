@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
 
           <div className="space-y-5 mb-8">
             {[
-              { icon: Phone, label: '+254 700 000 000' },
+              { icon: Phone, label: '+254 723 67 22 44' },
               { icon: Mail, label: 'rose@sokoza.co.ke' },
               { icon: MapPin, label: 'Nairobi, Kenya — Operating Across Africa' },
             ].map(({ icon: Icon, label }) => (
