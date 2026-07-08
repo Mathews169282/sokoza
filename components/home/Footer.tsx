@@ -37,12 +37,23 @@ const Footer = () => {
             audiences and brands across Africa.
           </p>
 <div className="flex gap-3 mt-6">
-             {[Facebook, Instagram, Linkedin].map((Icon, i) => (
-               <a key={i} href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#8B2D6E] flex items-center justify-center transition-colors">
-                 <Icon className="w-4 h-4 text-white" />
-               </a>
-             ))}
-           </div>
+              {[
+                { icon: Facebook, href: 'https://www.facebook.com', label: 'Facebook' },
+                { icon: Instagram, href: 'https://www.instagram.com', label: 'Instagram' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/sokoza-events-877356333?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
+              ].map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#8B2D6E] flex items-center justify-center transition-colors"
+                  aria-label={label}
+                >
+                  <Icon className="w-4 h-4 text-white" />
+                </a>
+              ))}
+            </div>
         </div>
 
         <div>
