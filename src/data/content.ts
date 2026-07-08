@@ -25,7 +25,9 @@ export const STATS = [
 ];
 
 export const CLIENTS = [
-  'Safaricom', 'KCB Bank', 'Kenya Red Cross', 'Equity', 'GIZ', 'Unilever', 'Novartis', 'Coca-Cola',
+  'Safaricom', 'KCB Bank', 'Kenya Red Cross', 'Equity', 'GIZ',
+  'Unilever', 'Novartis', 'Coca-Cola', 'Samsung', 'Standard Chartered',
+  'Vodafone', 'WHO', 'UNICEF', 'Shell', 'TotalEnergies',
 ];
 
 export const SERVICES = [
