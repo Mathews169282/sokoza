@@ -4,6 +4,8 @@ import SiteLayout from '@/components/layout/SiteLayout';
 import Script from 'next/script';
 import './globals.css';
 
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+
 const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sokoza Events — Leadership in Motion',
     description: 'Design and execution of exceptional events across Africa.',
-    url: 'https://sokozaevents.co.ke',
+    url: 'https://www.sokoza.co.ke',
     siteName: 'Sokoza Events',
     type: 'website',
     locale: 'en_KE',
@@ -43,7 +45,7 @@ const organizationJsonLd = {
   '@type': 'Organization',
   name: 'Sokoza Events',
   description: 'Professional event management company delivering seamless and impactful event experiences across Africa.',
-  url: 'https://sokozaevents.co.ke',
+  url: 'https://www.sokoza.co.ke',
   email: 'rose@sokoza.co.ke',
   telephone: '+254723672244',
   address: {
@@ -62,19 +64,23 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-white text-[#1E2024]" suppressHydrationWarning>
         <SiteLayout>{children}</SiteLayout>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');
-          `}
-        </Script>
+        {GA_ID && (
+          <Script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            strategy="afterInteractive"
+          />
+        )}
+        {GA_ID && (
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}');
+            `}
+          </Script>
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

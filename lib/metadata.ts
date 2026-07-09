@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { SERVICES, BLOG } from '@/data/content';
 import { defaultSEO, jsonLd } from '@/lib/seo';
 
-const SITE_URL = 'https://sokozaevents.co.ke';
+const SITE_URL = 'https://www.sokoza.co.ke';
 
 export const pageMetadata: Record<string, Metadata> = {
   home: {

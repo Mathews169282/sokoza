@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { COLORS } from '@/data/content';
 
-const SITE_URL = 'https://sokozaevents.co.ke';
+const SITE_URL = 'https://www.sokoza.co.ke';
 
 export const defaultSEO: Metadata = {
   title: 'Sokoza Events — Leadership in Motion',
