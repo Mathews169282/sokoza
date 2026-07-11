@@ -23,7 +23,7 @@ export const defaultSEO: Metadata = {
     description: 'Design and execution of exceptional events across Africa.',
   },
   icons: {
-    icon: '/favicon.ico',
+    apple: '/apple-icon.png',
   },
 };
 

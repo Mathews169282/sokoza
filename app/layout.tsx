@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   title: 'Sokoza Events — Leadership in Motion',
   description: 'Design and execution of exceptional events across Africa.',
   icons: {
-    icon: '/favicon.ico',
     apple: '/apple-icon.png',
   },
   manifest: '/manifest.json',
