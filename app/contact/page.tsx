@@ -55,7 +55,7 @@ body: JSON.stringify({
           <div>
             <p className="text-gray-600 leading-relaxed mb-8">
               Tell us about your vision and our team will get back to you with a tailored proposal.
-              Whether it&apos;s a corporate summit or a brand activation — we&apos;re ready.
+              Whether it&apos;s a corporate summit or an event — we&apos;re ready.
             </p>
 
             <div className="space-y-5 mb-8">

@@ -12,7 +12,7 @@ const CTA = ({ onQuote }: { onQuote: () => void }) => {
           Ready to Create Something<br className="hidden md:block" /> Unforgettable?
         </h2>
         <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-9 leading-relaxed">
-          From corporate summits to brand activations, our team is ready to bring your vision to life across Africa.
+          From corporate summits to events, our team is ready to bring your vision to life across Africa.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <button

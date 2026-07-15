@@ -39,11 +39,11 @@ export const pageMetadata: Record<string, Metadata> = {
   portfolio: {
     ...defaultSEO,
     title: 'Our Work | Featured Events & Projects',
-    description: 'Explore our portfolio of corporate summits, brand activations, and conferences across Africa.',
+    description: 'Explore our portfolio of corporate summits, events, and conferences across Africa.',
     openGraph: {
       ...defaultSEO.openGraph,
       title: 'Our Work | Featured Events & Projects',
-      description: 'Explore our portfolio of corporate summits, brand activations, and conferences.',
+      description: 'Explore our portfolio of corporate summits, events, and conferences.',
       url: `${SITE_URL}/portfolio`,
     },
   },
@@ -61,7 +61,7 @@ export const pageMetadata: Record<string, Metadata> = {
   contact: {
     ...defaultSEO,
     title: 'Contact Us | Let\'s Plan Your Next Event',
-    description: 'Get in touch with Sokoza Events to plan your next unforgettable event. Corporate summits, brand activations across Africa.',
+    description: 'Get in touch with Sokoza Events to plan your next unforgettable event. Corporate summits, events across Africa.',
     openGraph: {
       ...defaultSEO.openGraph,
       title: 'Contact Us | Let\'s Plan Your Next Event',

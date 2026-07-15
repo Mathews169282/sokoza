@@ -78,7 +78,7 @@ export const SERVICES = [
     icon: 'Megaphone',
     slug: 'experiential-marketing-support',
     title: 'Experiential Marketing Support',
-    desc: 'Brand activations and experiential campaigns that create memorable connections and deliver measurable results.',
+    desc: 'Events and experiential campaigns that create memorable connections and deliver measurable results.',
   },
 ];
 
@@ -97,7 +97,7 @@ export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Events'];
 
 export const TESTIMONIALS = [
   { quote: 'Sokoza delivered our continental summit flawlessly. Their attention to detail and calm under pressure is unmatched.', name: 'Wanjiku K.', company: 'Corporate Affairs, Banking Sector' },
-  { quote: 'From concept to execution, the team transformed our brand activation into an unforgettable experience.', name: 'Brian O.', company: 'Marketing Lead, FMCG' },
+  { quote: 'From concept to execution, the team transformed our event into an unforgettable experience.', name: 'Brian O.', company: 'Marketing Lead, FMCG' },
   { quote: 'Professional, creative, and deeply reliable. They are now our go-to partner for every flagship event.', name: 'Esther M.', company: 'Programs Director, NGO' },
 ];
 
@@ -196,12 +196,12 @@ export const BLOG: BlogPost[] = [
     date: 'Apr 05, 2026',
     author: 'Samuel Otieno',
     readTime: '6 min read',
-    excerpt: 'Why brand activations remain one of the most powerful tools for connection in a digital age.',
+    excerpt: 'Why events remain one of the most powerful tools for connection in a digital age.',
     img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830252271_27affdc3.png',
     content: [
       { body: 'In a world of infinite scroll, real-world experiences cut through the noise. Experiential marketing turns passive audiences into active participants and brand advocates.' },
-      { heading: 'Emotion Drives Memory', body: 'People remember how an experience made them feel. A well-designed activation creates an emotional anchor that no banner ad can match.' },
-      { heading: 'Participation Over Observation', body: 'The best activations invite people in — to touch, taste, play, and create. Participation transforms a brand encounter into a personal story.' },
+      { heading: 'Emotion Drives Memory', body: 'People remember how an experience made them feel. A well-designed event creates an emotional anchor that no banner ad can match.' },
+      { heading: 'Participation Over Observation', body: 'The best events invite people in — to touch, taste, play, and create. Participation transforms a brand encounter into a personal story.' },
       { heading: 'Amplify the Moment', body: 'Design for shareability so that every guest becomes a broadcaster. The physical experience seeds a wave of authentic digital reach.' },
       { heading: 'Measure the Loyalty Loop', body: 'Track repeat engagement, sentiment, and advocacy. Loyalty is the true ROI of experiential marketing.' },
     ],
