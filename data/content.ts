@@ -87,17 +87,13 @@ export const PORTFOLIO = [
   { id: 2, title: 'Annual Investors Conference', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830173480_73e1da30.jpg' },
   { id: 3, title: 'Tech Innovation Forum', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830183232_76fb53f4.png' },
   { id: 4, title: 'Healthcare Excellence Awards', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830170829_5e6a6b4b.jpg' },
-  { id: 5, title: 'Garden Estate Wedding', category: 'Weddings', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830210318_babb876b.png' },
-  { id: 6, title: 'Lakeside Reception', category: 'Weddings', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830222082_e19faf9b.png' },
-  { id: 7, title: 'Twilight Celebration', category: 'Weddings', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830218790_5d73044e.png' },
-  { id: 8, title: 'Sunset Vows Gala', category: 'Weddings', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830204553_7b1107f1.jpg' },
   { id: 9, title: 'Flagship Product Launch', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830252271_27affdc3.png' },
   { id: 10, title: 'Consumer Brand Activation', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830257921_9a05edb3.jpg' },
   { id: 11, title: 'Experiential Roadshow', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830248359_481e3684.jpg' },
   { id: 12, title: 'City Brand Experience', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830254325_f1aab38c.png' },
 ];
 
-export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Weddings', 'Activations'];
+export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Activations'];
 
 export const TESTIMONIALS = [
   { quote: 'Sokoza delivered our continental summit flawlessly. Their attention to detail and calm under pressure is unmatched.', name: 'Wanjiku K.', company: 'Corporate Affairs, Banking Sector' },

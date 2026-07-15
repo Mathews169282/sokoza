@@ -5,8 +5,8 @@ const SITE_URL = 'https://www.sokoza.co.ke';
 
 export const defaultSEO: Metadata = {
   title: 'Sokoza Events — Leadership in Motion',
-  description: 'Design and execution of exceptional events across Africa. Corporate summits, weddings, brand activations, and conferences.',
-  keywords: ['events', 'event management', 'corporate events', 'weddings', 'brand activations', 'conferences', 'Africa', 'Kenya', 'Nairobi'],
+  description: 'Design and execution of exceptional events across Africa. Corporate summits, brand activations, and conferences.',
+  keywords: ['events', 'event management', 'corporate events', 'brand activations', 'conferences', 'Africa', 'Kenya', 'Nairobi'],
   authors: [{ name: 'Sokoza Events' }],
   creator: 'Sokoza Events',
   openGraph: {

@@ -60,7 +60,7 @@ body: JSON.stringify({
               <input type="email" placeholder="Email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8B2D6E]" />
               <input type="tel" placeholder="Phone number (optional)" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8B2D6E]" />
               <select value={form.eventType} onChange={(e) => setForm({ ...form, eventType: e.target.value })} className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8B2D6E] bg-white">
-                {['Corporate', 'Wedding', 'Brand Activation', 'Conference', 'Other'].map((o) => <option key={o}>{o}</option>)}
+                {['Corporate', 'Brand Activation', 'Conference', 'Other'].map((o) => <option key={o}>{o}</option>)}
               </select>
               <label className="flex items-start gap-2.5 text-sm text-gray-600">
                 <input type="checkbox" checked={smsOptIn} onChange={(e) => setSmsOptIn(e.target.checked)} className="mt-0.5 accent-[#8B2D6E]" />
