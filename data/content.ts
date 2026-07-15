@@ -87,13 +87,13 @@ export const PORTFOLIO = [
   { id: 2, title: 'Annual Investors Conference', category: 'Corporate', img: '/corporate-photos/20260518_085720.jpg' },
   { id: 3, title: 'Tech Innovation Forum', category: 'Corporate', img: '/corporate-photos/IMG-20260224-WA0042.jpg' },
   { id: 4, title: 'Healthcare Excellence Awards', category: 'Corporate', img: '/corporate-photos/Kholer.jpeg' },
-  { id: 9, title: 'Flagship Product Launch', category: 'Activations', img: '/events-photos/20251221_212949.jpg' },
-  { id: 10, title: 'Consumer Brand Activation', category: 'Activations', img: '/events-photos/20260427_173242.jpg' },
-  { id: 11, title: 'Experiential Roadshow', category: 'Activations', img: '/events-photos/IMG-20260224-WA0061.jpg' },
-  { id: 12, title: 'City Brand Experience', category: 'Activations', img: '/events-photos/photo-from-roz.jpg' },
+  { id: 9, title: 'Flagship Product Launch', category: 'Events', img: '/events-photos/20251221_212949.jpg' },
+  { id: 10, title: 'Consumer Brand Activation', category: 'Events', img: '/events-photos/20260427_173242.jpg' },
+  { id: 11, title: 'Experiential Roadshow', category: 'Events', img: '/events-photos/IMG-20260224-WA0061.jpg' },
+  { id: 12, title: 'City Brand Experience', category: 'Events', img: '/events-photos/photo-from-roz.jpg' },
 ];
 
-export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Activations'];
+export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Events'];
 
 export const TESTIMONIALS = [
   { quote: 'Sokoza delivered our continental summit flawlessly. Their attention to detail and calm under pressure is unmatched.', name: 'Wanjiku K.', company: 'Corporate Affairs, Banking Sector' },
