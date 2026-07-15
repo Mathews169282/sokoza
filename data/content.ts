@@ -83,14 +83,14 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO = [
-  { id: 1, title: 'Pan-African Leadership Summit', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830178198_f04158ce.png' },
-  { id: 2, title: 'Annual Investors Conference', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830173480_73e1da30.jpg' },
-  { id: 3, title: 'Tech Innovation Forum', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830183232_76fb53f4.png' },
-  { id: 4, title: 'Healthcare Excellence Awards', category: 'Corporate', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830170829_5e6a6b4b.jpg' },
-  { id: 9, title: 'Flagship Product Launch', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830252271_27affdc3.png' },
-  { id: 10, title: 'Consumer Brand Activation', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830257921_9a05edb3.jpg' },
-  { id: 11, title: 'Experiential Roadshow', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830248359_481e3684.jpg' },
-  { id: 12, title: 'City Brand Experience', category: 'Activations', img: 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830254325_f1aab38c.png' },
+  { id: 1, title: 'Pan-African Leadership Summit', category: 'Corporate', img: '/corporate-photos/20250820_093443.jpg' },
+  { id: 2, title: 'Annual Investors Conference', category: 'Corporate', img: '/corporate-photos/20260518_085720.jpg' },
+  { id: 3, title: 'Tech Innovation Forum', category: 'Corporate', img: '/corporate-photos/IMG-20260224-WA0042.jpg' },
+  { id: 4, title: 'Healthcare Excellence Awards', category: 'Corporate', img: '/corporate-photos/Kholer.jpeg' },
+  { id: 9, title: 'Flagship Product Launch', category: 'Activations', img: '/events-photos/20251221_212949.jpg' },
+  { id: 10, title: 'Consumer Brand Activation', category: 'Activations', img: '/events-photos/20260427_173242.jpg' },
+  { id: 11, title: 'Experiential Roadshow', category: 'Activations', img: '/events-photos/IMG-20260224-WA0061.jpg' },
+  { id: 12, title: 'City Brand Experience', category: 'Activations', img: '/events-photos/photo-from-roz.jpg' },
 ];
 
 export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Activations'];
