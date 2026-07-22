@@ -52,6 +52,7 @@ const Portfolio = () => {
               <div className="absolute bottom-0 p-5">
                 <span className="text-[#9aae3a] text-xs font-semibold uppercase tracking-wide">{p.category}</span>
                 <h3 className="text-white font-serif text-lg font-bold mt-1">{p.title}</h3>
+                {p.desc && <p className="text-gray-300 text-xs mt-1 leading-snug">{p.desc}</p>}
               </div>
             </button>
           ))}

@@ -83,12 +83,12 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO = [
-  { id: 1, title: 'Conferences & Summits', category: 'Conferences & Summits', img: '/corporate-photos/20250820_093443.jpg' },
-  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', img: '/corporate-photos/20260518_085720.jpg' },
-  { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', img: '/events-photos/20251221_212949.jpg' },
-  { id: 4, title: 'Corporate Events & Forums', category: 'Corporate Events & Forums', img: '/corporate-photos/Kholer.jpeg' },
-  { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', img: '/events-photos/20260427_173242.jpg' },
-  { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', img: '/events-photos/IMG-20260224-WA0061.jpg' },
+  { id: 1, title: 'Conferences & Summits', category: 'Conferences & Summits', desc: 'Panels, keynote stages, audience shots, branding', img: '/corporate-photos/20250820_093443.jpg' },
+  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', desc: 'Booth setups, exhibition floors, branded spaces, attendee interaction', img: '/corporate-photos/20260518_085720.jpg' },
+  { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', desc: 'Stage reveals, product displays, experiential setups', img: '/events-photos/20251221_212949.jpg' },
+  { id: 4, title: 'Corporate Events & Forums', category: 'Corporate Events & Forums', desc: 'Roundtables, AGMs, executive events, formal setups', img: '/corporate-photos/Kholer.jpeg' },
+  { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', desc: 'Cocktail events, mingling, VIP hosting, relationship-driven setups', img: '/events-photos/20260427_173242.jpg' },
+  { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', desc: 'Behind-the-scenes, setup, team in action, production quality', img: '/events-photos/IMG-20260224-WA0061.jpg' },
 ];
 
 export const PORTFOLIO_CATEGORIES = ['All', 'Conferences & Summits', 'Exhibitions & Trade Shows', 'Product Launches & Brand Experiences', 'Corporate Events & Forums', 'Networking & Stakeholder Engagements', 'Event Design & On-Ground Execution'];
