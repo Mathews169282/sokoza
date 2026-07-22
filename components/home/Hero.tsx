@@ -19,8 +19,10 @@ const Hero = () => (
         <p className="text-[#9aae3a] font-semibold tracking-[0.3em] text-sm uppercase mb-5">
           Leadership in Motion
         </p>
-        <h1 className="font-serif text-white text-4xl md:text-6xl font-bold leading-[1.1] mb-6">
-          From Concept to Continental Stage; We Lead High-Impact Conferences, Exhibitions &amp; Launches Across Africa.
+        <h1 className="font-serif text-white text-3xl md:text-5xl font-bold leading-[1.15] mb-6">
+          From Concept to Continental Stage;<br />
+          <span className="text-3xl md:text-5xl">We Lead High-Impact Conferences, Exhibitions &amp;&nbsp;</span>
+          <span className="text-3xl md:text-5xl">Launches Across Africa.</span>
         </h1>
         <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-9">
           Sokoza Events partners with organizations to structure, manage, and deliver complex,
