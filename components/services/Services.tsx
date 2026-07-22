@@ -14,16 +14,6 @@ const Services = () => {
   return (
     <section id="services" className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">Our Services</p>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
-            End-to-End Event Solutions
-          </h2>
-          <p className="text-gray-600 mt-4">
-            A complete suite of services to plan, design, and deliver events that move audiences.
-          </p>
-        </div>
-
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
           {SERVICES.map((s, i) => {
             const Icon = ICONS[s.icon];
@@ -41,6 +31,11 @@ const Services = () => {
                 <p className="text-gray-600 group-hover:text-purple-100 text-sm leading-relaxed mb-5 transition-colors">
                   {s.desc}
                 </p>
+                <ul className="text-gray-600 group-hover:text-purple-100 text-sm leading-relaxed mb-5 space-y-1 list-disc list-inside transition-colors">
+                  {s.bullets.map((b) => (
+                    <li key={b}>{b}</li>
+                  ))}
+                </ul>
                 <button
                   onClick={openQuote}
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#8B2D6E] group-hover:text-white transition-colors"

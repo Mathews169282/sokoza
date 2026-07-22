@@ -51,34 +51,40 @@ export const PARTNERS = [
 
 export const SERVICES = [
   {
-    icon: 'Lightbulb',
-    slug: 'event-concept-design',
-    title: 'Event Concept & Design',
-    desc: 'We craft compelling creative concepts and immersive designs that bring your brand story to life and captivate every guest.',
-  },
-  {
     icon: 'ClipboardList',
-    slug: 'full-service-event-planning',
-    title: 'Full-Service Event Planning',
-    desc: 'End-to-end planning and project management — from budgeting and timelines to flawless on-the-day coordination.',
+    slug: 'conferences',
+    title: 'Conferences',
+    desc: 'We design and deliver conferences that drive conversation, connection, and impact.',
+    bullets: [
+      'Agenda structuring and programme design',
+      'Speaker and stakeholder coordination',
+      'Delegate experience and flow',
+      'Hybrid and multi-day conference delivery',
+    ],
   },
   {
     icon: 'MapPin',
-    slug: 'venue-logistics-management',
-    title: 'Venue & Logistics Management',
-    desc: 'Sourcing the perfect venues and managing complex logistics, vendors, and transport with precision across Africa.',
-  },
-  {
-    icon: 'Users',
-    slug: 'guest-experience-management',
-    title: 'Guest Experience Management',
-    desc: 'Seamless registration, hospitality, and engagement that ensure every attendee feels valued from arrival to departure.',
+    slug: 'exhibitions',
+    title: 'Exhibitions',
+    desc: 'We transform exhibition spaces into structured, high-value environments.',
+    bullets: [
+      'Exhibition layout and zoning strategy',
+      'Exhibitor onboarding and coordination',
+      'Booth positioning and traffic flow design',
+      'On-ground exhibition management',
+    ],
   },
   {
     icon: 'Megaphone',
-    slug: 'experiential-marketing-support',
-    title: 'Experiential Marketing Support',
-    desc: 'Events and experiential campaigns that create memorable connections and deliver measurable results.',
+    slug: 'launches-brand-experiences',
+    title: 'Launches & Brand Experiences',
+    desc: 'We create experiences that position brands with clarity and impact.',
+    bullets: [
+      'Product and brand launch strategy',
+      'Experience design and audience engagement',
+      'Production and execution',
+      'Media and stakeholder alignment',
+    ],
   },
 ];
 
