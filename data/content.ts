@@ -83,17 +83,15 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO = [
-  { id: 1, title: 'Pan-African Leadership Summit', category: 'Corporate', img: '/corporate-photos/20250820_093443.jpg' },
-  { id: 2, title: 'Annual Investors Conference', category: 'Corporate', img: '/corporate-photos/20260518_085720.jpg' },
-  { id: 3, title: 'Tech Innovation Forum', category: 'Corporate', img: '/corporate-photos/IMG-20260224-WA0042.jpg' },
-  { id: 4, title: 'Healthcare Excellence Awards', category: 'Corporate', img: '/corporate-photos/Kholer.jpeg' },
-  { id: 9, title: 'Flagship Product Launch', category: 'Events', img: '/events-photos/20251221_212949.jpg' },
-  { id: 10, title: 'Consumer Brand Activation', category: 'Events', img: '/events-photos/20260427_173242.jpg' },
-  { id: 11, title: 'Experiential Roadshow', category: 'Events', img: '/events-photos/IMG-20260224-WA0061.jpg' },
-  { id: 12, title: 'City Brand Experience', category: 'Events', img: '/events-photos/photo-from-roz.jpg' },
+  { id: 1, title: 'Conferences & Summits', category: 'Conferences & Summits', img: '/corporate-photos/20250820_093443.jpg' },
+  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', img: '/corporate-photos/20260518_085720.jpg' },
+  { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', img: '/events-photos/20251221_212949.jpg' },
+  { id: 4, title: 'Corporate Events & Forums', category: 'Corporate Events & Forums', img: '/corporate-photos/Kholer.jpeg' },
+  { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', img: '/events-photos/20260427_173242.jpg' },
+  { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', img: '/events-photos/IMG-20260224-WA0061.jpg' },
 ];
 
-export const PORTFOLIO_CATEGORIES = ['All', 'Corporate', 'Events'];
+export const PORTFOLIO_CATEGORIES = ['All', 'Conferences & Summits', 'Exhibitions & Trade Shows', 'Product Launches & Brand Experiences', 'Corporate Events & Forums', 'Networking & Stakeholder Engagements', 'Event Design & On-Ground Execution'];
 
 export const TESTIMONIALS = [
   { quote: 'Sokoza delivered our continental summit flawlessly. Their attention to detail and calm under pressure is unmatched.', name: 'Wanjiku K.', company: 'Corporate Affairs, Banking Sector' },
