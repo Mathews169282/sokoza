@@ -20,9 +20,8 @@ const Portfolio = () => {
     <section id="work" className="py-20 lg:py-28 bg-[#1E2024]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <p className="text-[#9aae3a] font-semibold tracking-[0.2em] text-xs uppercase mb-4">Our Work</p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-white leading-tight">
-            Featured Projects
+            Our Work
           </h2>
         </div>
 
