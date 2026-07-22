@@ -20,24 +20,19 @@ const Hero = () => (
           Leadership in Motion
         </p>
         <h1 className="font-serif text-white text-4xl md:text-6xl font-bold leading-[1.1] mb-6">
-          Your Partner in Corporate Event Planning, Sponsorship and Audience Engagement
+          From Concept to Continental Stage; We Lead High-Impact Conferences, Exhibitions &amp; Launches Across Africa.
         </h1>
         <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-9">
-          We support organizations in planning and delivering high-impact professional events
-          that enhance brand visibility, stakeholder engagement, and partnership opportunities.
+          Sokoza Events partners with organizations to structure, manage, and deliver complex,
+          high-stakes events; ensuring seamless execution, strong stakeholder coordination, and
+          commercially sound outcomes.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link
             href="/services"
             className="inline-flex items-center gap-2 rounded bg-[#8B2D6E] hover:bg-[#5E1E49] text-white text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
           >
-            Our Services <ChevronRight className="w-4 h-4" />
-          </Link>
-          <Link
-            href="/portfolio"
-            className="inline-flex items-center gap-2 rounded border border-[#9aae3a] text-white hover:bg-[#9aae3a]/10 text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
-          >
-            View Our Work
+            Planning a conference, exhibition, or high-impact corporate event? Let&apos;s structure it right from the start. <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
       </div>
