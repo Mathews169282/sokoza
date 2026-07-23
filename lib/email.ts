@@ -38,6 +38,7 @@ export async function sendEmail({ to, subject, html }: { to: string; subject: st
       subject,
       html,
     });
+    console.log('Email sent:', info.messageId, 'status:', info.response);
     return { data: info };
   } catch (error) {
     console.error('Email send failed:', error);
