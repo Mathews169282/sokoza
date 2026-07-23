@@ -11,26 +11,29 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Invalid input' }, { status: 400 });
     }
 
-const crmPayload = {
-      email,
-      name,
-      phone: phone || undefined,
-      sms_opt_in: body.sms_opt_in ?? true,
-      source: source || 'contact-form',
-      tags: ['contact', 'quote-request'],
-      assign_to: 'rose@sokoza.co.ke',
-    };
+    try {
+      const crmPayload = {
+        email,
+        name,
+        phone: phone || undefined,
+        sms_opt_in: body.sms_opt_in ?? true,
+        source: source || 'contact-form',
+        tags: ['contact', 'quote-request'],
+        assign_to: 'rose@sokoza.co.ke',
+      };
 
-    const crmRes = await fetch('https://famous.ai/api/crm/6a43d3d8d03ffd9417a014d4/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(crmPayload),
-    });
+      const crmRes = await fetch('https://famous.ai/api/crm/6a43d3d8d03ffd9417a014d4/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(crmPayload),
+      });
 
-    if (!crmRes.ok) {
-      const text = await crmRes.text();
-      console.error('CRM error:', crmRes.status, text);
-      return NextResponse.json({ error: 'CRM sync failed' }, { status: 502 });
+      if (!crmRes.ok) {
+        const text = await crmRes.text();
+        console.error('CRM error:', crmRes.status, text);
+      }
+    } catch (crmError) {
+      console.error('CRM sync failed:', crmError);
     }
 
     await sendEmail({
