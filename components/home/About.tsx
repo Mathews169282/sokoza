@@ -69,7 +69,7 @@ const About = () => (
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">
-            Our Team &amp; Network
+            Leadership
           </p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
             Our Team &amp; Network
@@ -89,9 +89,6 @@ const About = () => (
             </h3>
             <p className="text-[#8B2D6E] font-semibold uppercase tracking-wide text-sm mb-6">
               Founder / Event Lead
-            </p>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              <span className="font-semibold text-[#1E2024]">Leadership</span>
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Sokoza Events is led by Rose Wanjohi, a commercial and business development leader with over 14 years’ experience across sales, partnerships, and large-scale event execution.
