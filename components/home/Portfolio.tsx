@@ -49,8 +49,7 @@ const Portfolio = () => {
               <img src={p.img} alt={p.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-90" />
               <div className="absolute bottom-0 p-5">
-                <span className="text-[#9aae3a] text-xs font-semibold uppercase tracking-wide">{p.category}</span>
-                <h3 className="text-white font-serif text-lg font-bold mt-1">{p.title}</h3>
+                <h3 className="text-white font-serif text-lg font-bold">{p.title}</h3>
                 {p.desc && <p className="text-gray-300 text-xs mt-1 leading-snug">{p.desc}</p>}
               </div>
             </button>
@@ -69,7 +68,6 @@ const Portfolio = () => {
           <div className="max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
             <img src={open.img} alt={open.title} className="w-full max-h-[75vh] object-contain rounded-lg" />
             <div className="text-center mt-4">
-              <span className="text-[#9aae3a] text-xs font-semibold uppercase tracking-wide">{open.category}</span>
               <h3 className="text-white font-serif text-2xl font-bold">{open.title}</h3>
             </div>
           </div>
