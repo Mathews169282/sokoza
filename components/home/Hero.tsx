@@ -19,10 +19,9 @@ const Hero = () => (
         <p className="text-[#9aae3a] font-semibold tracking-[0.3em] text-sm uppercase mb-5">
           Leadership in Motion
         </p>
-        <h1 className="font-serif text-white text-3xl md:text-5xl font-bold leading-[1.15] mb-6">
+        <h1 className="font-serif text-white text-2xl md:text-4xl font-bold leading-[1.2] mb-6">
           From Concept to Continental Stage;<br />
-          <span className="text-3xl md:text-5xl">We Lead High-Impact Conferences, Exhibitions &amp;&nbsp;</span>
-          <span className="text-3xl md:text-5xl">Launches Across Africa.</span>
+          We Lead High-Impact Conferences, Exhibitions &amp;&nbsp;Launches Across Africa.
         </h1>
         <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-9">
           Sokoza Events partners with organizations to structure, manage, and deliver complex,
@@ -32,7 +31,7 @@ const Hero = () => (
         <div className="flex flex-wrap gap-4">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 rounded bg-[#8B2D6E] hover:bg-[#5E1E49] text-white text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
+            className="inline-flex items-center gap-2 rounded bg-[#8B2D6E] hover:bg-[#5E1E49] text-white font-serif text-sm font-semibold uppercase tracking-wide px-7 py-4 transition-colors"
           >
             Planning a conference, exhibition, or high-impact corporate event? Let&apos;s structure it right from the start. <ChevronRight className="w-4 h-4" />
           </Link>
