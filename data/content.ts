@@ -89,15 +89,15 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO = [
-  { id: 1, title: 'Conferences & Summits', category: 'Conferences & Summits', desc: 'Panels, keynote stages, audience shots, branding', img: '/corporate-photos/20250820_093443.jpg' },
-  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', desc: 'Booth setups, exhibition floors, branded spaces, attendee interaction', img: '/corporate-photos/20260518_085720.jpg' },
+  { id: 1, title: 'Conferences & Meetings', category: 'Conferences & Meetings', desc: 'Panels, keynote stages, audience shots, branding', img: '/corporate-photos/20260518_085720.jpg' },
+  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', desc: 'Booth setups, exhibition floors, branded spaces, attendee interaction', img: '/corporate-photos/20250820_093443.jpg' },
   { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', desc: 'Stage reveals, product displays, experiential setups', img: '/corporate-photos/Kholer.jpeg' },
   { id: 4, title: 'Client Giveaways', category: 'Client Giveaways', desc: 'Corporate gifts, loyalty items, premium merchandise, and branded giveaways', img: '/events-photos/20251221_212949.jpg' },
   { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', desc: 'Cocktail events, mingling, VIP hosting, relationship-driven setups', img: '/events-photos/20260427_173242.jpg' },
   { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', desc: 'Behind-the-scenes, setup, team in action, production quality', img: '/events-photos/IMG-20260224-WA0061.jpg' },
 ];
 
-export const PORTFOLIO_CATEGORIES = ['All', 'Conferences & Summits', 'Exhibitions & Trade Shows', 'Product Launches & Brand Experiences', 'Client Giveaways', 'Networking & Stakeholder Engagements', 'Event Design & On-Ground Execution'];
+export const PORTFOLIO_CATEGORIES = ['All', 'Conferences & Meetings', 'Exhibitions & Trade Shows', 'Product Launches & Brand Experiences', 'Client Giveaways', 'Networking & Stakeholder Engagements', 'Event Design & On-Ground Execution'];
 
 export const TESTIMONIALS = [
   { quote: 'Sokoza delivered our continental summit flawlessly. Their attention to detail and calm under pressure is unmatched.', name: 'Wanjiku K.', company: 'Corporate Affairs, Banking Sector' },
