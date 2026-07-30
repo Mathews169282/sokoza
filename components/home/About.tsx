@@ -67,23 +67,27 @@ const About = () => (
     </div>
     <div className="bg-[#FBFAF8]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
-        <div className="text-center max-w-2xl mx-auto mb-14">
+        <div className="text-center max-w-2xl mx-auto mb-10">
           <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">
             Leadership
           </p>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
+          <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight mb-4">
             Our Team &amp; Network
           </h2>
+          <p className="text-gray-600 italic text-lg">
+            Passionate expert making your vision a reality
+          </p>
         </div>
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div className="relative">
+            <div className="absolute -inset-4 bg-[#8B2D6E]/5 rounded-2xl -z-10" />
             <img
               src="/rose-wanjohi.jpeg"
               alt="Rose N. Wanjohi, Founder and Event Lead of Sokoza Events"
-              className="rounded-lg shadow-2xl w-full object-cover"
+              className="rounded-xl shadow-xl w-full object-cover"
             />
           </div>
-          <div>
+          <div className="lg:pl-4">
             <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#1E2024] mb-1">
               Rose N. Wanjohi
             </h3>
