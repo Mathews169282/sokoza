@@ -18,7 +18,7 @@ export const COLORS = {
 };
 
 export const HERO_IMG = '/DSC_1869 (1).jpg';
-export const ABOUT_IMG = 'https://d64gsuwffb70l.cloudfront.net/6a43d3d8d03ffd9417a014d4_1782830145056_ad643f25.jpg';
+export const ABOUT_IMG = '/corporate-photos/about-hero.jpg';
 
 export const STATS = [
   { value: 10, suffix: '+', label: 'Events Executed' },
