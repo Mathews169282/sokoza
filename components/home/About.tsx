@@ -69,21 +69,18 @@ const About = () => (
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">
-            Your Event Planning Expert
+            Our Team &amp; Network
           </p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
-            Meet Rose
+            Our Team &amp; Network
           </h2>
-          <p className="text-gray-600 mt-4">
-            Passionate expert making your vision a reality
-          </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="relative">
             <img
               src="/rose-wanjohi.jpeg"
-              alt="Rose N. Wanjohi, CEO and Founder of Sokoza Events"
-              className="rounded-lg shadow-2xl w-full object-cover h-[480px]"
+              alt="Rose N. Wanjohi, Founder and Event Lead of Sokoza Events"
+              className="rounded-lg shadow-2xl w-full object-cover"
             />
           </div>
           <div>
@@ -91,13 +88,35 @@ const About = () => (
               Rose N. Wanjohi
             </h3>
             <p className="text-[#8B2D6E] font-semibold uppercase tracking-wide text-sm mb-6">
-              CEO / Founder
+              Founder / Event Lead
             </p>
-            <p className="text-gray-600 leading-relaxed">
-              Founder and chief visionary, Rose is passionate about creating unique and
-              personalized events for our clients. She oversees the planning process and ensures
-              that every detail is taken care of.
+            <p className="text-gray-600 leading-relaxed mb-6">
+              <span className="font-semibold text-[#1E2024]">Leadership</span>
             </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Sokoza Events is led by Rose Wanjohi, a commercial and business development leader with over 14 years’ experience across sales, partnerships, and large-scale event execution.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              Her strength lies in structuring complex projects, managing diverse stakeholders, and ensuring events are both operationally sound and commercially effective.
+            </p>
+            <div className="border-t border-gray-200 pt-8">
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Sokoza Events operates through a strong network of experienced professionals, trusted partners, and specialized vendors across the events ecosystem.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Depending on the scope and scale of each project, we assemble the right team; bringing together expertise in:
+              </p>
+              <ul className="text-gray-600 leading-relaxed mb-6 space-y-2 list-disc list-inside">
+                <li>Event management and coordination</li>
+                <li>Exhibition design and build</li>
+                <li>Production and technical delivery</li>
+                <li>Guest experience and registration</li>
+                <li>Branding, communication, and logistics</li>
+              </ul>
+              <p className="text-gray-600 leading-relaxed">
+                We operate as a coordinated team, aligned to deliver seamless, high-quality events.
+              </p>
+            </div>
           </div>
         </div>
       </div>
