@@ -65,6 +65,35 @@ const About = () => (
         </div>
       </div>
     </div>
+    <div className="bg-white">
+      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
+        <div className="text-center max-w-2xl mx-auto mb-14">
+          <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">Our Ecosystem</p>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
+            OUR ECOSYSTEM
+          </h2>
+        </div>
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Sokoza Events operates within a dynamic corporate events ecosystem; working with
+            organizations, brands, and partners who deliver conferences, exhibitions, launches,
+            and business experiences across Africa.
+          </p>
+          <p className="text-gray-600 leading-relaxed mb-6">We collaborate with:</p>
+          <ul className="text-gray-600 text-left leading-relaxed mb-6 space-y-2 list-disc list-inside">
+            <li>Corporate organizations and brand teams</li>
+            <li>Conference and exhibition organizers</li>
+            <li>Marketing and communications agencies</li>
+            <li>Production and technical partners</li>
+            <li>Regional and international event companies</li>
+          </ul>
+          <p className="text-gray-600 leading-relaxed">
+            This allows us to plug in at different levels; whether as a lead delivery partner,
+            a local execution team, or a strategic support partner.
+          </p>
+        </div>
+      </div>
+    </div>
     <div className="bg-[#FBFAF8]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
         <div className="text-center max-w-2xl mx-auto mb-10">
@@ -119,35 +148,6 @@ const About = () => (
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-28">
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-[#7A8B2E] font-semibold tracking-[0.2em] text-xs uppercase mb-4">Our Ecosystem</p>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1E2024] leading-tight">
-            OUR ECOSYSTEM
-          </h2>
-        </div>
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-gray-600 leading-relaxed mb-6">
-            Sokoza Events operates within a dynamic corporate events ecosystem; working with
-            organizations, brands, and partners who deliver conferences, exhibitions, launches,
-            and business experiences across Africa.
-          </p>
-          <p className="text-gray-600 leading-relaxed mb-6">We collaborate with:</p>
-          <ul className="text-gray-600 text-left leading-relaxed mb-6 space-y-2 list-disc list-inside">
-            <li>Corporate organizations and brand teams</li>
-            <li>Conference and exhibition organizers</li>
-            <li>Marketing and communications agencies</li>
-            <li>Production and technical partners</li>
-            <li>Regional and international event companies</li>
-          </ul>
-          <p className="text-gray-600 leading-relaxed">
-            This allows us to plug in at different levels; whether as a lead delivery partner,
-            a local execution team, or a strategic support partner.
-          </p>
         </div>
       </div>
     </div>
