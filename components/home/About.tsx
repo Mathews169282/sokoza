@@ -28,14 +28,6 @@ const About = () => (
             Our role goes beyond planning. We bring clarity to complexity, ensuring every
             event is intentional, coordinated, and built to perform.
           </p>
-          <div className="text-center">
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded bg-[#8B2D6E] hover:bg-[#5E1E49] text-white text-xs font-semibold uppercase tracking-wide px-6 py-4 transition-colors"
-            >
-              Learn More About Us <ChevronRight className="w-4 h-4" />
-            </a>
-          </div>
         </div>
         <div className="relative">
           <img src={ABOUT_IMG} alt="About Sokoza" className="rounded-lg shadow-2xl w-full object-cover h-[420px]" />
