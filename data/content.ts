@@ -89,12 +89,12 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO = [
-  { id: 1, title: 'Conferences & Meetings', category: 'Conferences & Meetings', desc: 'Panels, keynote stages, audience shots, branding', img: '/corporate-photos/20260518_085720.jpg' },
-  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', desc: 'Booth setups, exhibition floors, branded spaces, attendee interaction', img: '/events-photos/20251221_212949.jpg' },
-  { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', desc: 'Stage reveals, product displays, experiential setups', img: '/corporate-photos/Kholer.jpeg' },
-  { id: 4, title: 'Client Giveaways', category: 'Client Giveaways', desc: 'Corporate gifts, loyalty items, premium merchandise, and branded giveaways', img: '/corporate-photos/20250820_093443.jpg' },
-  { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', desc: 'Cocktail events, mingling, VIP hosting, relationship-driven setups', img: '/events-photos/20260427_173242.jpg' },
-  { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', desc: 'Behind-the-scenes, setup, team in action, production quality', img: '/events-photos/IMG-20260224-WA0061.jpg' },
+  { id: 1, title: 'Conferences & Meetings', category: 'Conferences & Meetings', slug: 'conferences-meetings', desc: 'Panels, keynote stages, audience shots, branding', img: '/corporate-photos/20260518_085720.jpg', gallery: ['/corporate-photos/20260518_085720.jpg', '/corporate-photos/20250820_093443.jpg', '/corporate-photos/IMG-20260224-WA0042.jpg'] },
+  { id: 2, title: 'Exhibitions & Trade Shows', category: 'Exhibitions & Trade Shows', slug: 'exhibitions-trade-shows', desc: 'Booth setups, exhibition floors, branded spaces, attendee interaction', img: '/events-photos/20251221_212949.jpg', gallery: ['/events-photos/20251221_212949.jpg', '/events-photos/IMG-20260224-WA0061.jpg', '/events-photos/photo-from-roz.jpg'] },
+  { id: 3, title: 'Product Launches & Brand Experiences', category: 'Product Launches & Brand Experiences', slug: 'product-launches-brand-experiences', desc: 'Stage reveals, product displays, experiential setups', img: '/corporate-photos/Kholer.jpeg', gallery: ['/corporate-photos/Kholer.jpeg', '/events-photos/20260427_173242.jpg'] },
+  { id: 4, title: 'Client Giveaways', category: 'Client Giveaways', slug: 'client-giveaways', desc: 'Corporate gifts, loyalty items, premium merchandise, and branded giveaways', img: '/corporate-photos/20250820_093443.jpg', gallery: ['/corporate-photos/20250820_093443.jpg', '/corporate-photos/20260518_085720.jpg'] },
+  { id: 5, title: 'Networking & Stakeholder Engagements', category: 'Networking & Stakeholder Engagements', slug: 'networking-stakeholder-engagements', desc: 'Cocktail events, mingling, VIP hosting, relationship-driven setups', img: '/events-photos/20260427_173242.jpg', gallery: ['/events-photos/20260427_173242.jpg', '/events-photos/20251221_212949.jpg'] },
+  { id: 6, title: 'Event Design & On-Ground Execution', category: 'Event Design & On-Ground Execution', slug: 'event-design-on-ground-execution', desc: 'Behind-the-scenes, setup, team in action, production quality', img: '/events-photos/IMG-20260224-WA0061.jpg', gallery: ['/events-photos/IMG-20260224-WA0061.jpg', '/corporate-photos/IMG-20260224-WA0042.jpg', '/events-photos/photo-from-roz.jpg'] },
 ];
 
 export const PORTFOLIO_CATEGORIES = ['All', 'Conferences & Meetings', 'Exhibitions & Trade Shows', 'Product Launches & Brand Experiences', 'Client Giveaways', 'Networking & Stakeholder Engagements', 'Event Design & On-Ground Execution'];
